@@ -1,0 +1,23 @@
+# Eclipse
+.metadata/
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Compilação Java
+bin/
+target/
+out/
+
+# Arquivos compilados
+*.class
+
+# Logs
+*.log
