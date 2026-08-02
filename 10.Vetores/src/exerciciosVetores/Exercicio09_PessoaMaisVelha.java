@@ -2,7 +2,7 @@ package exerciciosVetores;
 
 import java.util.Scanner;
 
-public class Exercicio9_PessoaMaisVelha {
+public class Exercicio09_PessoaMaisVelha {
 
 	public static void main(String[] args) {
 

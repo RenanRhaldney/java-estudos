@@ -1,14 +1,14 @@
 package exerciciosEntities;
 
-public class Exercicio1_Employee {
+public class Exercicio01_Employee {
 	private int id;
 	private String nome;
 	private double salario;
 		
-	public Exercicio1_Employee() {
+	public Exercicio01_Employee() {
 	}
 	
-	public Exercicio1_Employee(int id, String nome, double salario) {
+	public Exercicio01_Employee(int id, String nome, double salario) {
 		this.id = id;
 		this.nome = nome;
 		this.salario = salario;

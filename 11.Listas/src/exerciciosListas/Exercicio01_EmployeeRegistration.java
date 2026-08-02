@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import exerciciosEntities.Exercicio1_Employee;
+import exerciciosEntities.Exercicio01_Employee;
 
-public class Exercicio1_EmployeeRegistration {
+public class Exercicio01_EmployeeRegistration {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -25,7 +25,7 @@ public class Exercicio1_EmployeeRegistration {
 		 */
 
 		//Cria uma lista de objeto Employee
-		List<Exercicio1_Employee> listEmployees = new ArrayList<>();
+		List<Exercicio01_Employee> listEmployees = new ArrayList<>();
 		
 		System.out.print("Quantos funcionários serão cadastrados? ");
 		int n = sc.nextInt();
@@ -47,14 +47,14 @@ public class Exercicio1_EmployeeRegistration {
 			String nome = sc.nextLine();
 			System.out.print("Salario: ");
 			double salario = sc.nextDouble();
-			listEmployees.add(new Exercicio1_Employee(id, nome, salario));
+			listEmployees.add(new Exercicio01_Employee(id, nome, salario));
 		}
 
 		System.out.print("\nInsira o ID do funcionário que receberá o aumento salarial: ");
 		int id = sc.nextInt();
 		//Encontra o Employee pelo id (Utiliza o stream para pecorrer a lista, filtra utilizando expressao lambda, com findFirst pega o primeiro que encontrar 
 		//e orElse(null) caso o objeto nao for encontrado retorna null)
-		Exercicio1_Employee employee = listEmployees.stream()
+		Exercicio01_Employee employee = listEmployees.stream()
 													.filter(e -> e.getId() == id)
 													.findFirst()
 													.orElse(null);
@@ -71,15 +71,15 @@ public class Exercicio1_EmployeeRegistration {
 
 		//exibe todos employees que estao na lista
 		System.out.println("\nLista de empregados:");
-		for(Exercicio1_Employee e : listEmployees) {
+		for(Exercicio01_Employee e : listEmployees) {
 			System.out.println(e.toString());
 		}
 		
 		sc.close();
 	}
 
-	private static boolean hasId(List<Exercicio1_Employee> listEmployees, int id) {
-		Exercicio1_Employee employee = listEmployees.stream().filter(e -> e.getId() == id).findFirst().orElse(null);
+	private static boolean hasId(List<Exercicio01_Employee> listEmployees, int id) {
+		Exercicio01_Employee employee = listEmployees.stream().filter(e -> e.getId() == id).findFirst().orElse(null);
 		return employee != null;
 	}
 }

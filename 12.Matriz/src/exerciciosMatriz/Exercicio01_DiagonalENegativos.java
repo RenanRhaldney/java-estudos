@@ -2,7 +2,7 @@ package exerciciosMatriz;
 
 import java.util.Scanner;
 
-public class Exercicio1_DiagonalENegativos {
+public class Exercicio01_DiagonalENegativos {
 
 	public static void main(String[] args) {
 

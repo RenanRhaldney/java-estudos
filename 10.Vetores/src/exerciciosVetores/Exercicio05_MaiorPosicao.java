@@ -3,7 +3,7 @@ package exerciciosVetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio5_MaiorPosicao {
+public class Exercicio05_MaiorPosicao {
 
 	public static void main(String[] args) {
 

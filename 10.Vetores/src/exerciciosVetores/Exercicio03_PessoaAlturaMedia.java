@@ -2,9 +2,9 @@ package exerciciosVetores;
 
 import java.util.Locale;
 import java.util.Scanner;
-import exerciciosEntities.Exercicio3_Pessoa;
+import exerciciosEntities.Exercicio03_Pessoa;
 
-public class Exercicio3_PessoaAlturaMedia {
+public class Exercicio03_PessoaAlturaMedia {
 
 	public static void main(String[] args) {
 
@@ -21,12 +21,12 @@ public class Exercicio3_PessoaAlturaMedia {
 		System.out.print("Quantas pessoas serao digitadas?");
 		int qtdPessoas = sc.nextInt();
 
-		Exercicio3_Pessoa[] vetor = new Exercicio3_Pessoa[qtdPessoas];
+		Exercicio03_Pessoa[] vetor = new Exercicio03_Pessoa[qtdPessoas];
 
 		for (int i = 0; i < vetor.length; i++) {
 			
 			//Criando o objeto para cada posição dentro do vetor.
-			vetor[i] = new Exercicio3_Pessoa();
+			vetor[i] = new Exercicio03_Pessoa();
 			
 			// Entrada de dados
 			System.out.printf("Dados da %d a pessoa:\n", i+1);

@@ -3,7 +3,7 @@ package exerciciosVetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio1_NumerosNegativos {
+public class Exercicio01_NumerosNegativos {
 
 	public static void main(String[] args) {
 

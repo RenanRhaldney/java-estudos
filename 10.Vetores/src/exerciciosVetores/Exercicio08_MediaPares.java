@@ -3,7 +3,7 @@ package exerciciosVetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio8_MediaPares {
+public class Exercicio08_MediaPares {
 
 	public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package exerciciosMatriz;
 
 import java.util.Scanner;
 
-public class Exercicio2_ElementosVizinhos {
+public class Exercicio02_ElementosVizinhos {
 
 	public static void main(String[] args) {
 		

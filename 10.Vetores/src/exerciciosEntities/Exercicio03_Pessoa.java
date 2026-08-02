@@ -1,6 +1,6 @@
 package exerciciosEntities;
 
-public class Exercicio3_Pessoa {
+public class Exercicio03_Pessoa {
 	private String nome;
 	private int idade;
 	private double altura;

@@ -2,7 +2,7 @@ package exerciciosVetores;
 
 import java.util.Scanner;
 
-public class Exercicio4_NumerosPares {
+public class Exercicio04_NumerosPares {
 
 	public static void main(String[] args) {
 		

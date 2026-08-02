@@ -3,7 +3,7 @@ package exerciciosVetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio2_SomaEMedia {
+public class Exercicio02_SomaEMedia {
 
 	public static void main(String[] args) {
 //		Faça um programa que leia N números reais e armazene-os em um vetor. Em seguida:

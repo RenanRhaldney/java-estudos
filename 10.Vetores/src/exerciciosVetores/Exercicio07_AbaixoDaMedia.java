@@ -3,7 +3,7 @@ package exerciciosVetores;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio7_AbaixoDaMedia {
+public class Exercicio07_AbaixoDaMedia {
 
 	public static void main(String[] args) {
 
