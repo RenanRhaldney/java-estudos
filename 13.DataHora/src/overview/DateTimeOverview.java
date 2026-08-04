@@ -1,4 +1,4 @@
-package application;
+package overview;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -10,7 +10,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class OverviewDateTime {
+public class DateTimeOverview {
 
     public static void main(String[] args) {
 
