@@ -11,11 +11,11 @@ public class Department {
 		this.name = name;
 	}
 
-	public void getName() {
-
+	public String getName() {
+		return name;
 	}
 
-	public String setName() {
-		return name;
+	public void setName(String name) {
+		this.name = name;
 	}
 }
