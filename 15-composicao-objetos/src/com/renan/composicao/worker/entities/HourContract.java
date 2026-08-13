@@ -1,4 +1,4 @@
-package com.renan.composicao.entities;
+package com.renan.composicao.worker.entities;
 
 import java.time.LocalDate;
 

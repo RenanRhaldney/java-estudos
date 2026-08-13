@@ -1,9 +1,10 @@
-package com.renan.composicao.entities;
+package com.renan.composicao.worker.entities;
 
 import java.util.ArrayList;
 import java.util.List;
+import com.renan.composicao.worker.entities.enums.WorkerLevel;
 
-import com.renan.composicao.entities.enums.WorkerLevel;
+
 
 public class Worker {
 

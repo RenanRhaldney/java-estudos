@@ -1,4 +1,4 @@
-package com.renan.composicao.entities.enums;
+package com.renan.composicao.worker.entities.enums;
 
 public enum WorkerLevel {
 	JUNIOR,

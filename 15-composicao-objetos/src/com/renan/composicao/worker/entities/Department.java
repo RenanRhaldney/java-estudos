@@ -1,4 +1,4 @@
-package com.renan.composicao.entities;
+package com.renan.composicao.worker.entities;
 
 public class Department {
 

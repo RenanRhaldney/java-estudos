@@ -1,16 +1,15 @@
-package com.renan.composicao.application;
+package com.renan.composicao.worker.application;
 
 import java.time.LocalDate;
+import java.time.YearMonth;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.Scanner;
 
-import com.renan.composicao.entities.Department;
-import com.renan.composicao.entities.HourContract;
-import com.renan.composicao.entities.Worker;
-import com.renan.composicao.entities.enums.WorkerLevel;
-
-import java.time.YearMonth;
+import com.renan.composicao.worker.entities.Department;
+import com.renan.composicao.worker.entities.HourContract;
+import com.renan.composicao.worker.entities.Worker;
+import com.renan.composicao.worker.entities.enums.WorkerLevel;
 
 public class WorketProgram {
 
