@@ -29,7 +29,7 @@ public class PostProgram {
 		post2.addComment(new Comment("Good night"));
 		post2.addComment(new Comment("May the Force be with you"));
 		
-		System.out.println(post1.toString());
+		System.out.println(post1);
 		System.out.println("Comments:");
 		for(Comment c : post1.getComments()) {
 			System.out.println(c.getText());
@@ -37,7 +37,7 @@ public class PostProgram {
 		
 		System.out.println();
 		
-		System.out.println(post2.toString());
+		System.out.println(post2);
 		System.out.println("Comments:");
 		for(Comment c : post2.getComments()) {
 			System.out.println(c.getText());
