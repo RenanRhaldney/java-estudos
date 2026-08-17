@@ -72,18 +72,18 @@ public class Order {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
-		sb.append("\nORDER SUMMARY:");
-		sb.append("\nOrder moment: ");
+		sb.append("\n" + "ORDER SUMMARY:");
+		sb.append("\n" + "Order moment: ");
 		sb.append(moment.format(dateTimeFormatter));
-		sb.append("\nOrder status: ");
+		sb.append("\n" + "Order status: ");
 		sb.append(status);
-		sb.append("\nClient: ");
+		sb.append("\n" + "Client: ");
 		sb.append(client.toString());
-		sb.append("\nOrder items:");
+		sb.append("\n" + "Order items:");
 		for (OrderItem item : items) {
-			sb.append(item.toString() + "\n");
+			sb.append("\n" + item.toString());
 		}
-		sb.append("\nTotal price: $");
+		sb.append("\n" + "Total price: $");
 		sb.append(String.format("%.2f", total()));
 		
 		

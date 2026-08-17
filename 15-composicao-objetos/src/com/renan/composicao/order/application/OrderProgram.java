@@ -20,7 +20,6 @@ public class OrderProgram {
 		Scanner sc = new Scanner(System.in);
 
 		DateTimeFormatter dateFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 
 		System.out.println("Enter cliente date:");
 
@@ -44,8 +43,8 @@ public class OrderProgram {
 		System.out.print("How many items to this order?");
 		int quantity = sc.nextInt();
 
-		for (int i = 0; i < quantity; i++) {
-			System.out.println("Enter #" + (i + 1) + " item data:");
+		for (int i = 1; i <= quantity; i++) {
+			System.out.println("Enter #" + i + " item data:");
 			System.out.print("Product name: ");
 			sc.nextLine();
 			String productName = sc.nextLine();
