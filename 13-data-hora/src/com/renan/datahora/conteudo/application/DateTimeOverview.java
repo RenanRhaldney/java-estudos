@@ -273,7 +273,6 @@ public class DateTimeOverview {
 		System.out.println("Data formatada: " + datainput.format(formato));
 
 		sc.close();
-		System.out.println(ZoneId.systemDefault());
 	}
 
 	/**
