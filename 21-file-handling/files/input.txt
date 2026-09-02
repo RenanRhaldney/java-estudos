@@ -1,0 +1,72 @@
+ARQUIVO DE TESTE - JAVA FILES OVERVIEW
+
+Este arquivo será utilizado para realizar experimentos com manipulação de arquivos em Java.
+
+Java é uma linguagem de programação orientada a objetos.
+É possível utilizar Java para criar, ler, escrever, alterar e excluir arquivos.
+
+----------------------------------------
+PRODUTOS
+----------------------------------------
+
+ID: 1
+Nome: Notebook
+Preço: 4500.00
+Quantidade: 10
+
+ID: 2
+Nome: Mouse
+Preço: 120.50
+Quantidade: 25
+
+ID: 3
+Nome: Teclado Mecânico
+Preço: 350.00
+Quantidade: 15
+
+ID: 4
+Nome: Monitor
+Preço: 1800.00
+Quantidade: 8
+
+----------------------------------------
+USUÁRIOS
+----------------------------------------
+
+Nome: Renan
+Email: renan@example.com
+Cargo: Desenvolvedor Java
+
+Nome: Maria
+Email: maria@example.com
+Cargo: Desenvolvedora Backend
+
+Nome: João
+Email: joao@example.com
+Cargo: Desenvolvedor Full Stack
+
+----------------------------------------
+TECNOLOGIAS
+----------------------------------------
+
+Java
+Spring Boot
+Maven
+JPA
+Hibernate
+PostgreSQL
+Git
+GitHub
+
+----------------------------------------
+MENSAGENS
+----------------------------------------
+
+Primeira mensagem de teste.
+Segunda mensagem de teste.
+Terceira mensagem de teste.
+Esta é uma linha utilizada para testar a leitura de arquivos.
+Esta é outra linha utilizada para testar streams.
+----------------------------------------
+
+FIM DO ARQUIVO
